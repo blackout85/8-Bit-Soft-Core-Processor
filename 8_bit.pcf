@@ -1,0 +1,16 @@
+Main 12MHz Clock
+
+set_io clk      21
+
+UART Pins (Connected to the onboard FTDI USB-Serial chip)
+
+set_io uart_tx  8
+set_io uart_rx  9
+
+User LEDs (The circular pattern on the iCEstick)
+
+set_io leds[0]  95
+set_io leds[1]  96
+set_io leds[2]  97
+set_io leds[3]  98
+set_io leds[4]  99
